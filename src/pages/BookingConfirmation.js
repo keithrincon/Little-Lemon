@@ -14,7 +14,7 @@ const BookingConfirmation = ({
       <section
         style={{ display: "flex", "flex-direction": "column", gap: "0.5rem" }}
       >
-        <h1>Thank you for your booking, {name}!</h1>
+        <h1>Thank you for your reservation, {name}!</h1>
         <p>
           We confirm your reservation for {date} at {time} for {guests}{" "}
           {guests === 1 ? "guest" : "guests"}.

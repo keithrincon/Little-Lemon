@@ -45,8 +45,8 @@ function Main() {
     <main>
       <section className="specials">
         <div className="top">
-          <h1>This weeks specials!</h1>
-          <button>Online Menu</button>
+          <h1>This Weeks Specials!</h1>
+          <button>Order Online</button>
         </div>
         <div className="cards">{specialsCards}</div>
       </section>
